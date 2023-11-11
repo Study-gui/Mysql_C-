@@ -1,0 +1,5 @@
+﻿D:\vs\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(503,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+D:\vs\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1374,5): warning MSB8012: TargetPath(D:\vs_mysql\bin\testmysqllb.exe) 与 Linker 的 OutputFile 属性值(D:\vs_mysql\bin\testmysqllb_d.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+D:\vs\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1376,5): warning MSB8012: TargetName(testmysqllb) 与 Linker 的 OutputFile 属性值(testmysqllb_d)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+  LINK : 没有找到 ..\..\bin\testmysqllb_d.exe 或上一个增量链接没有生成它；正在执行完全链接
+  testmysqllb.vcxproj -> D:\vs_mysql\bin\testmysqllb.exe
